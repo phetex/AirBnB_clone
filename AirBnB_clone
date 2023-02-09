@@ -1,0 +1,10 @@
+#!/usr/bin/python3
+
+def sum_of_squares(numbers):
+    """Calculate the sum of squares of a list of numbers."""
+    return sum(x**2 for x in numbers)
+
+numbers = [2, 3, 4]
+result = sum_of_squares(numbers)
+print(result)
+
